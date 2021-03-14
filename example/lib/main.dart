@@ -3,7 +3,7 @@ import 'package:g_captcha/g_captcha.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 // TODO
-const String CAPTCHA_SITE_KEY = "6LcKqfQUAAAAAC1I5Bjg0WI9RMc6wK9gjwG29Nr3";
+const String CAPTCHA_SITE_KEY = "YOUR CAPTCHA SITE";
 const String RECAPTCHA_VERIFY_URL =
     "https://www.google.com/recaptcha/api/siteverify";
 
@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: const Text('ENGIE APP'),
+            title: const Text('APP'),
           ),
           body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
